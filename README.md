@@ -10,7 +10,7 @@ $ pip install -r requirements.txt  # 安装
 ### 训练
 
 ```bash
-$ python train.py --data coco128.yaml --cfg configs/yolov7/yolov7.yaml #默认为yolo
+$ python train.py --data coco128.yaml --cfg configs/attention_v7/yolov7_CA.yaml #默认为yolo
 ```
 
 ### 推理
