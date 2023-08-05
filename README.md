@@ -27,10 +27,16 @@ $ python detect.py --source 0  # 网络摄像头
 
 ### 融合
 如果您使用不同模型来推理数据集，则可以使用 wbf.py文件 通过加权框融合来集成结果。
+
 您只需要在 wbf.py文件 中设置 img 路径和 txt 路径。
 ```bash
 $ python wbf.py
 ```
-______________________________________________________________________
+_ExDark Dataset:[Link]：https://pan.baidu.com/s/1wfp4xJBSPKz-Qh2GLmDlrA [password]：83wo
+Subdivide the low light conditions, such as whether it is twilight or nighttime, location (in or out), visibility of the light source, and type of light source (sun, artificial light)
+12 categories: Bicycle, Boat, Bottom, Bus, Car, Cat, Chair, Cup, Dog, Motorbike, People, and Table
+Data collection: online download, keywords (dark, low light, nighttime); Public datasets (PADCAL VOC, ImageNet, and COCO); Extracting from movies; Manual shooting
+Annotations: manual annotations
+_____________________________________________________________________
 
 
